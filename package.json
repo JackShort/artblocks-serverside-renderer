@@ -1,0 +1,14 @@
+{
+    "name": "artblocks-serverside-renderer",
+    "version": "0.1.0",
+    "description": "A package for generating on-chain ArtBlocks data in nodejs.",
+    "main": "src/index.js",
+    "type": "module",
+    "dependencies": {
+        "artblocks": "^0.1.0",
+        "puppeteer": "^13.3.2"
+    },
+    "scripts": {
+        "dev": "node src/index.js"
+    }
+}
